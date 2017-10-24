@@ -40,7 +40,10 @@ h1 {
   font-family: 'Nosifer', cursive;
   background-color: floralwhite;
 }  
-
+#wlc {
+  background-color: floralwhite;
+  font-weight: bold;
+}
 #text {
   background-color: floralwhite;
   font-weight: bold;
