@@ -1,3 +1,8 @@
+body {
+  background-image: url("marble.JPG");
+    background-repeat: repeat;
+}
+
 nav#navbar ul {
 	list-style-type: none;
 	padding: 0;
@@ -27,11 +32,12 @@ nav#navbar ul li a:hover {
 }
 
 #vid {
-  float: left;
+  float: right;
 }
 
 #pic {
   float: right;
+  position: fixed;
 }
 
 h1 {
@@ -39,5 +45,5 @@ h1 {
 }
 
 h2 {
-  color: blue;
+  color: #B22222;
 }

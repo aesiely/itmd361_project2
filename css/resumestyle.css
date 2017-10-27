@@ -1,3 +1,9 @@
+  body {
+    background-image: url("marble.JPG"), url("pc.JPG");
+    background-repeat: repeat, no-repeat;
+    background-position: left, 100% 15%;
+  }
+  
   nav#navbar ul {
     list-style-type: none;
     padding: 0;
@@ -28,13 +34,22 @@
 
   h1 , h2 {
     font-family: 'Nosifer', cursive;
-    background-color: floralwhite;
   }
 
   h3 {
-    color: blue;
+    color: #B22222;
+  }
+ #sec {
+  color: #B22222;
   }
 
-  #skills {
-    background-color: floralwhite;
-  }
+ #box {
+  width: 450px;
+			height: 200px;
+			margin-top: -160px;
+			float: right;
+      font-weight: bold;
+      padding: 0px 20px;
+      line-height: 1.5;
+      font-size: 1.3em;
+ }
