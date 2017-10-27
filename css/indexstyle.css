@@ -1,9 +1,14 @@
 body{
-  background-image: url("flag.JPG"), url("marble.JPG");
-  background-repeat: no-repeat, repeat;
-  background-position: 100% 12.5%, left;
+  background-image: url("marble.JPG");
+  background-repeat: repeat;
+  background-position: left;
 }
-  
+ 
+#flag {
+  float: right;
+  margin: 15px;
+}
+ 
 nav#navbar ul {
     list-style-type: none;
     margin: -10px -10px ;
@@ -67,6 +72,7 @@ h1 {
       line-height: 1.5;
       font-size: 1.75em;
 }
+
 #emailaddress {
   margin-top: 20%;
   font-weight: bold;
