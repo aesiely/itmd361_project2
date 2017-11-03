@@ -1,7 +1,7 @@
   body {
-    background-image: url("marble.JPG"), url("pc.JPG");
-    background-repeat: repeat, no-repeat;
-    background-position: left, 100% 15%;
+    background-image: url("../media/marble.jpg");
+    background-repeat: repeat;;
+    background-position: left;
   }
   
   nav#navbar ul {
