@@ -78,5 +78,6 @@ h1 {
   margin-top: 20%;
   font-weight: bold;
   font-size: 1.2em;
-  color: #B22222;
+  color: white;
+  background-color: grey;
 }
