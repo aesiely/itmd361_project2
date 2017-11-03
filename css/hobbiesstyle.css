@@ -2,6 +2,11 @@ body {
   background-image: url("../media/marble.jpg");
     background-repeat: repeat;
 }
+#soccer {
+  float: right;
+  margin: 15px;
+  padding: 5px;
+}
 
 nav#navbar ul {
 	list-style-type: none;
