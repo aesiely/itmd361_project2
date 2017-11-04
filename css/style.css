@@ -9,9 +9,6 @@ body{
   margin: 15px;
   padding: 5px;
 }
-#main-navbar {
-	
-}
 
 #content-wrapper {
 	background-color: #aaa;
@@ -52,7 +49,7 @@ body{
 h3 {
     font-family: 'Lobster', cursive;
 	  color: #B22222;
-    margin: 0
+    margin: 0;
 }
     
 h2 {
@@ -94,4 +91,90 @@ h1 {
   font-size: 1.2em;
   color: white;
   background-color: grey;
+}
+
+/**
+RESUME PAGE CSS
+**/
+body {
+    background-image: url("../media/marble.jpg");
+    background-repeat: repeat;;
+    background-position: left;
+  }
+  
+#content-wrapper {
+	background-color: #aaa;
+}
+
+#navbar-container {
+	text-align: center;
+}
+
+#main-navbar {
+	overflow: hidden;
+}
+
+#main-navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#main-navbar ul li {
+	float: left;
+}
+
+#main-navbar ul li a {
+	display: block;
+	padding: 15px 30px;
+	color: #fff;
+	text-decoration: none;
+  background-color: red;
+}
+
+#main-navbar ul li a:hover {
+  background-color: #245;
+}
+
+  h1 , h2 {
+    font-family: 'Nosifer', cursive;
+  }
+
+  h3 {
+    color: #B22222;
+  }
+ #sec {
+  color: #B22222;
+  }
+
+ #box {
+  width: 450px;
+			height: 200px;
+			margin-top: -160px;
+			float: right;
+      font-weight: bold;
+      padding: 0px 20px;
+      line-height: 1.5;
+      font-size: 1.3em;
+ }
+ /**
+ Hobbies
+ **/
+ #vid {
+  float: right;
+}
+
+#pic {
+  float: right;
+  position: fixed;
+}
+
+h1 {
+  font-family: 'Nosifer', cursive;
+}
+
+h2 {
+  color: #B22222;
 }
